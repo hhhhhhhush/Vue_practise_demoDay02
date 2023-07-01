@@ -5,11 +5,13 @@
 </template>
 
 <script>
-  export default {
-    
+
+import MyRef from '@/components/MyRef.vue';
+export default {
+  components: {
+    MyRef
   }
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
